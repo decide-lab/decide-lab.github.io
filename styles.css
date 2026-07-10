@@ -1,0 +1,91 @@
+/* ==========================================================================
+   1. BRAND KIT & VARIÁVEIS DO DECIDE LAB
+   ========================================================================== */
+:root {
+    --decide-blue: #00366E;      /* Azul Profundo (Texto DeCiDe) */
+    --decide-green: #14B74F;     /* Verde Esmeralda (LAB) */
+    --decide-yellow: #FECA28;    /* Amarelo Dourado (DNA) */
+    --decide-lime: #A5DC49;      /* Verde Lima (Acento) */
+    --decide-text-dark: #1C2B39; /* Cinza-Escuro (Texto) */
+}
+
+/* ==========================================================================
+   2. FIX DA LOGO NA NAVBAR (TRUQUE OBRIGATÓRIO)
+   ========================================================================== */
+.navbar-logo {
+    max-height: 55px !important; 
+    height: auto !important;
+    margin-top: -5px !important; 
+    margin-bottom: -5px !important;
+    background-color: transparent !important; 
+    padding: 0 !important; 
+    border-radius: 0 !important; 
+}
+
+/* Garante que o container da marca na navbar não force padding extra */
+.navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* ==========================================================================
+   3. CUSTOMIZAÇÃO DE COMPONENTES DO BOOTSTRAP 5
+   ========================================================================== */
+
+/* Customização sutil dos botões do Quarto/Bootstrap para usar a identidade */
+.btn-primary {
+    background-color: var(--decide-blue) !important;
+    border-color: var(--decide-blue) !important;
+}
+
+.btn-primary:hover {
+    background-color: #00254a !important;
+    border-color: #00254a !important;
+}
+
+/* Badges e Tags customizadas do Laboratório */
+.badge-decide-blue {
+    background-color: var(--decide-blue) !important;
+    color: #ffffff !important;
+}
+
+.badge-decide-green {
+    background-color: var(--decide-green) !important;
+    color: #ffffff !important;
+}
+
+/* Alinhamento fino para o painel de abas nativas (Tabsets) */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: var(--decide-blue) !important;
+    color: #ffffff !important;
+}
+
+.nav-pills .nav-link {
+    color: var(--decide-blue);
+    font-weight: 500;
+}
+
+/* ==========================================================================
+   4. AJUSTES DE FLUIDEZ & ACESSIBILIDADE
+   ========================================================================== */
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--decide-text-dark);
+}
+
+/* No modo escuro nativo do Quarto, ajustamos o texto padrão para legibilidade */
+.quarto-dark body {
+    color: #f8f9fa;
+}
+
+/* Estilização elegante do rodapé */
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+}
+
+.quarto-dark footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
