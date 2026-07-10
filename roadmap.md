@@ -23,7 +23,7 @@ Este documento registra as etapas de planejamento, arquitetura, design system e 
 
 - [X] **Passo 3.1:** Configuração do motor do Blog na pasta `/posts/`.
 - [X] **Passo 3.2:** Estruturação da pasta espelhada `/en/` para a versão em inglês.
-- [ ] **Passo 3.3:** Deployment automatizado no GitHub Pages via GitHub Actions ou CLI do Quarto.
+- [X] **Passo 3.3:** Deployment automatizado no GitHub Pages via GitHub Actions ou CLI do Quarto.
 
 ------------------------------------------------------------------------
 
