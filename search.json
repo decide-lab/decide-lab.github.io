@@ -35,11 +35,11 @@
     "text": "O DeCiDe LAB foca no entendimento profundo dos caminhos moleculares que ativam ou inibem a morte celular programada (apoptose e necroptose). A nossa missão é descobrir alvos terapêuticos e biomarcadores aplicáveis a doenças humanas críticas.\n\n\n🧬 Frentes de Investigação Patológica\n\n    \n    \n        \n            \n                Onconecrose e Resistência Tumoral\n                \n                    Estudamos como células tumorais de carcinomas agressivos evitam a apoptose convencional. O laboratório busca caminhos para reativar vias alternativas de morte regulada (como a ferroptose) para contornar a resistência a quimioterápicos.\n                \n            \n        \n    \n\n    \n    \n        \n            \n                Patologias Inflamatórias e Isquêmicas\n                \n                    A morte celular descontrolada induz forte resposta inflamatória tecidual. Investigamos o papel da necroptose na falência de órgãos durante quadros de sepse e lesões de isquemia e reperfusão miocárdica.\n                \n            \n        \n    \n\n\n\n📑 Projetos Financiados Ativos\n\n    \n        Projeto Temático\n        Processo nº 2024/00451-2\n    \n    Decodificação de Checkpoints de Morte Celular por Transcriptômica Espacial\n    \n        Este projeto visa mapear a heterogeneidade da morte celular diretamente nos tecidos lesionados. Utilizando biópsias humanas e transcriptômica espacial, buscamos correlacionar a assinatura espacial de expressão gênica com o prognóstico clínico dos pacientes.\n    \n    \n         Auxílio à Pesquisa Regular\n        Vigência: 2024 - 2028\n    \n\n\n\n    \n        Cooperação Internacional\n        Consórcio Global de Biologia Celular\n    \n    Redes Genéticas de Regulação da Ferroptose em Modelos Experimentais\n    \n        Consórcio internacional focado na triagem em larga escala via CRISPR-Cas9 para identificar modificadores epigenéticos que regulam a sensibilidade celular à oxidação lipídica e morte subsequente.\n    \n    \n         Financiamento Multicêntrico\n        Vigência: 2025 - 2027"
   },
   {
-    "objectID": "posts/post-exemplo/index.html",
-    "href": "posts/post-exemplo/index.html",
-    "title": "Mapeando a Necroptose em Alta Resolução",
+    "objectID": "posts/noticia-01/index.html",
+    "href": "posts/noticia-01/index.html",
+    "title": "Bem-vindo ao Blog do DeCiDe LAB",
     "section": "",
-    "text": "A morte celular programada já não é vista como um evento binário de “tudo ou nada”. Descobertas recentes do nosso laboratório demonstram que populações celulares adjacentes podem responder a estímulos inflamatórios adotando rotas bioquímicas completamente distintas.\n\nO Poder do Single-Cell RNA-Seq\nAo isolarmos e sequenciarmos o RNA de células individuais em modelos teciduais de sepse, conseguimos identificar assinaturas moleculares específicas que precedem o colapso da membrana celular característico da necroptose.\n\nAchado Chave: A ativação da proteína MLKL (efetora da necroptose) ocorre de forma heterogênea, sugerindo a existência de checkpoints celulares locais até então desconhecidos.\n\nEsses dados abrem caminhos para terapias direcionadas capazes de frear a morte de tecidos vitais sem desarmar completamente a resposta imune necessária para combater infecções. Fiquem atentos às próximas publicações do grupo para o mapeamento completo destas vias."
+    "text": "Esta é a nossa primeira publicação. Não contém nenhum código R que dependa de bibliotecas externas."
   },
   {
     "objectID": "roadmap.html",
@@ -74,7 +74,7 @@
     "href": "posts/index.html",
     "title": "Blog & Notícias Científicas",
     "section": "",
-    "text": "Bem-vindo ao canal de divulgação do DeCiDe LAB. Aqui compartilhamos resumos de nossas últimas publicações, editais abertos para novos pesquisadores e insights sobre a biologia da morte celular.\n\n\n\n\n\n\n\n\n\n\nMapeando a Necroptose em Alta Resolução\n\n\n\n\n\n\nPesquisa\n\n\nTranscriptômica\n\n\nInflamação\n\n\n\nComo as novas abordagens de transcriptômica de célula única estão desvendando os gatilhos da inflamação celular tecidual.\n\n\n\n\n\nJul 9, 2026\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Bem-vindo ao canal de divulgação do DeCiDe LAB. Aqui compartilhamos resumos de nossas últimas publicações, editais abertos para novos pesquisadores e insights sobre a biologia da morte celular.\n\n\n\n\n\n\n\n\n\n\nBem-vindo ao Blog do DeCiDe LAB\n\n\n\n\n\n\nnotícias\n\n\n\nInauguração do nosso canal de notícias.\n\n\n\n\n\nOct 1, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
