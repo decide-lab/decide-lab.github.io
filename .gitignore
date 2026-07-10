@@ -10,3 +10,5 @@
 *.log
 *.tmp
 .DS_Store
+/.quarto/
+/_site/

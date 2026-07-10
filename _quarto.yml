@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "DeCiDe LAB" # Título usado para SEO e abas do navegador
+  
+  navbar:
+    background: primary # Usa a cor #00366E definida no tema/css
+    search: true
+    logo: logo.png
+    title: false # OBRIGATÓRIO: Esconde o texto da marca para destacar a logo
+    
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Sobre o Lab"
+        href: bio.qmd
+      - text: "Cursos"
+        href: cursos.qmd
+      - text: "Ferramentas"
+        href: ferramentas.qmd
+      - text: "Blog"
+        href: posts/index.qmd
+        
+    right:
+      - text: "EN"
+        href: en/index.qmd
+      - icon: github
+        href: https://github.com/decide-lab/decide-lab.github.io
+        aria-label: GitHub
+
+  page-footer:
+    left: |
+      Desenvolvido com <a href="https://quarto.org/" target="_blank" style="color: #14B74F; text-decoration: none; font-weight: bold;">Quarto 🚀</a>
+    right: |
+      <span style="color: #00366E; font-weight: bold;">DeCiDe</span><span style="color: #14B74F; font-weight: bold;">LAB</span> © 2026 | Decoding Cell Death in Disease
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false # Desativado globalmente conforme as diretrizes

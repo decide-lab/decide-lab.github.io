@@ -8,10 +8,10 @@ Este documento registra as etapas de planejamento, arquitetura, design system e 
 
 ### Fase 1: Fundação do Projeto & Ambiente (Atual)
 
-- [ ] **Passo 1.1:** Criação da estrutura local de arquivos e diretórios.
-- [ ] **Passo 1.2:** Configuração do arquivo global do Quarto (`_quarto.yml`) incorporando a identidade visual.
-- [ ] **Passo 1.3:** Configuração das folhas de estilo customizadas (`styles.css`).
-- [ ] **Passo 1.4:** Inicialização do repositório Git local e vinculação ao GitHub (`decide-lab.github.io`).
+- [X] **Passo 1.1:** Criação da estrutura local de arquivos e diretórios.
+- [X] **Passo 1.2:** Configuração do arquivo global do Quarto (`_quarto.yml`) incorporando a identidade visual.
+- [X] **Passo 1.3:** Configuração das folhas de estilo customizadas (`styles.css`).
+- [X] **Passo 1.4:** Inicialização do repositório Git local e vinculação ao GitHub (`decide-lab.github.io`).
 
 ### Fase 2: Desenvolvimento do Core das Páginas (Light/Dark Mode)
 
@@ -32,3 +32,20 @@ Este documento registra as etapas de planejamento, arquitetura, design system e 
 ### 1. Definição do Brand Kit (Cores Extraídas do Logotipo)
 
 Definimos a identidade visual baseada estritamente no logotipo oficial fornecido. As variáveis serão usadas para sobrescrever os temas padrão do Bootstrap 5 via CSS/SASS: - **Primary (Azul Profundo - Texto DeCiDe):** `#00366E` - **Success (Verde Esmeralda - Célula/LAB):** `#14B74F` - **Warning (Amarelo D Dourado - DNA):** `#FECA28` - **Text Color (Cinza-Escuro - Contornos):** `#1C2B39`
+
+
+### 2. Configuração Global do Ecossistema (_quarto.yml)
+- **O que foi feito:** Criado o esqueleto estrutural de navegação global.
+- **Explicação:** Configuramos a inversão de temas nativa do Quarto (`flatly` / `darkly`), amarramos o arquivo `styles.css` para a injeção do Brand Kit e forçamos `title: false` na navbar para blindar o layout contra quebras de linha provocadas por texto concorrendo com a logo. O rodapé foi customizado em HTML inline para garantir que as marcas do laboratório e do framework usem exatamente as cores `#00366E` (Azul Profundo) e `#14B74F` (Verde Esmeralda).
+- **Status do Passo 1.2:** 🟢 Concluído.
+
+
+### 3. Injeção de Identidade Visual Customizada (styles.css)
+- **O que foi feito:** Criação da folha de estilos contendo o reset da logo e mapeamento do Brand Kit.
+- **Explicação:** Declaramos as cores extraídas do logotipo em variáveis `:root` CSS para facilitar manutenção futura. Implementamos o patch `.navbar-logo` anulando margens, paddings e backgrounds padrão do Quarto que deformavam o posicionamento do logo transparente. Adicionalmente, customizamos os estados ativos de `.btn-primary` e `.nav-pills` para herdar o azul acadêmico (`#00366E`), garantindo consistência visual em componentes iterativos.
+- **Status do Passo 1.3:** 🟢 Concluído.
+
+### 4. Governança de Código e Versionamento (Git/.gitignore)
+- **O que foi feito:** Criação do `.gitignore` e inicialização do repositório Git alinhado ao branch `main`.
+- **Explicação:** Blindamos o repositório contra poluição de metadados de renderização locais isolando as pastas `/.quarto/` e `/_site/`. O fluxo foi preparado para espelhar a estrutura diretamente na organização/usuário `decide-lab` no GitHub, preparando o gatilho automático de hospedagem do GitHub Pages.
+- **Status do Passo 1.4:** 🟢 Concluído.
