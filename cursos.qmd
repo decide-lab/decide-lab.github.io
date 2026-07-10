@@ -1,0 +1,97 @@
+---
+title: "Cursos & Treinamentos"
+page-layout: full
+---
+
+O DeCiDe LAB atua ativamente na formação de recursos humanos qualificados e na democratização do conhecimento científico. Oferecemos treinamentos periódicos, disciplinas de extensão e workshops teóricos-práticos nas áreas de biologia molecular quantitativa e bioinformática translacional.
+
+---
+
+::: {.panel-tabset .nav-pills}
+
+## 💻 Workshops Computacionais
+
+```{=html}
+<div class="row g-4 mt-2">
+    <!-- Curso 1 -->
+    <div class="col-md-6">
+        <div class="card h-100 border-0 shadow-sm bg-white">
+            <div class="card-header bg-primary text-white fw-bold py-3">
+                <i class="bi bi-terminal-fill me-2"></i>Introdução à Análise de scRNA-Seq
+            </div>
+            <div class="card-body d-flex flex-column">
+                <h6 class="card-subtitle mb-3 text-muted">Vagas esgotadas • Próxima turma em Breve</h6>
+                <p class="card-text small text-secondary">Treinamento prático focado no alinhamento, controle de qualidade, normalização e clusterização de dados de transcriptômica de célula única usando R/Bioconductor e Seurat.</p>
+                <div class="mt-auto pt-3 border-top">
+                    <span class="badge bg-light text-primary border border-primary"><i class="bi bi-clock me-1"></i> 20 horas</span>
+                    <span class="badge bg-light text-dark border border-secondary"><i class="bi bi-layers me-1"></i> Intermediário</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Curso 2 -->
+    <div class="col-md-6">
+        <div class="card h-100 border-0 shadow-sm bg-white">
+            <div class="card-header bg-primary text-white fw-bold py-3">
+                <i class="bi bi-git me-2"></i>Ciência de Dados Reprodutível para Biólogos
+            </div>
+            <div class="card-body d-flex flex-column">
+                <h6 class="card-subtitle mb-3 text-success fw-bold"><i class="bi bi-check-circle-fill me-1"></i> Inscrições Abertas</h6>
+                <p class="card-text small text-secondary">Aprenda a estruturar seus achados científicos de forma auditável e reprodutível utilizando o ecossistema Git, GitHub e relatórios dinâmicos com o framework Quarto.</p>
+                <div class="mt-auto pt-3 border-top">
+                    <span class="badge bg-light text-primary border border-primary"><i class="bi bi-clock me-1"></i> 12 horas</span>
+                    <span class="badge bg-light text-dark border border-secondary"><i class="bi bi-layers me-1"></i> Iniciante</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+## 🧪 Protocolos de Bancada (In Vitro)
+
+```{=html}
+<div class="row g-4 mt-2">
+    <div class="col-12">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-opacity-10 bg-success rounded-3 text-success me-3">
+                        <i class="bi bi-vial fs-3"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold text-dark mb-0">Ensaios Avançados de Viabilidade e Morte Celular</h5>
+                        <small class="text-muted">Treinamento Presencial Exclusivo para Pós-Graduandos</small>
+                    </div>
+                </div>
+                <p class="text-secondary small">Imersão em técnicas de Citometria de Fluxo e Microscopia de Fluorescência de Tempo-Lapse para discriminação quantitativa entre morte celular apoptótica, necroptótica e autofagia induzida por fármacos.</p>
+                <table class="table table-sm table-hover text-secondary small mt-3">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Módulo</th>
+                            <th scope="col">Abordagem</th>
+                            <th scope="col">Período</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Módulo I</td>
+                            <td>Citometria e Anexina V / PI</td>
+                            <td>Anual (Outubro)</td>
+                        </tr>
+                        <tr>
+                            <td>Módulo II</td>
+                            <td>Western Blotting para Caspases e MLKL</td>
+                            <td>Semestral</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+:::
+

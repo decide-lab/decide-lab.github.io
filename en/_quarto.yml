@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: ../_site/en
+
+website:
+  title: "DeCiDe LAB"
+  
+  navbar:
+    background: primary
+    search: true
+    logo: ../logo.png
+    title: false
+    
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About Us"
+        href: bio.qmd
+      - text: "Courses"
+        href: cursos.qmd
+      - text: "Research Lines"
+        href: pesquisa.qmd
+        
+    right:
+      - text: "PT"
+        href: ../index.qmd
+      - icon: github
+        href: https://github.com/decide-lab/decide-lab.github.io

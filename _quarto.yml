@@ -18,8 +18,8 @@ website:
         href: bio.qmd
       - text: "Cursos"
         href: cursos.qmd
-      - text: "Ferramentas"
-        href: ferramentas.qmd
+      - text: "Linhas de Pesquisa"
+        href: pesquisa.qmd
       - text: "Blog"
         href: posts/index.qmd
         

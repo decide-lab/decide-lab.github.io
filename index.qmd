@@ -1,0 +1,105 @@
+---
+title: "DeCiDe LAB"
+page-layout: full
+---
+
+```{=html}
+<!-- SEÇÃO DE PREAMBULO / HERO DASHBOARD -->
+<div class="row mb-4 align-items-center bg-light p-4 rounded-3 border-start border-primary border-4 shadow-sm m-1">
+    <div class="col-md-9">
+        <h1 class="display-5 fw-bold text-dark mb-2">Decoding Cell Death in Disease</h1>
+        <p class="lead text-secondary mb-0">
+            Investigando os mecanismos celulares, moleculares e genéticos da morte celular regulada no contexto das doenças humanas.
+        </p>
+    </div>
+    <div class="col-md-3 text-md-end mt-3 mt-md-0">
+        <span class="badge badge-decide-green px-3 py-2 fs-6">Ciência Fundamental</span>
+        <span class="badge badge-decide-blue px-3 py-2 fs-6 mt-1">Translacional</span>
+    </div>
+</div>
+
+<!-- CONTAINER DOS CARDS DE MÉTRICAS / RESUMO DO LAB -->
+<div class="row g-4 mb-4">
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm bg-white">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-opacity-10 bg-primary rounded-3 text-primary me-3">
+                        <i class="bi bi-journal-medical fs-3"></i>
+                    </div>
+                    <h5 class="card-title mb-0 fw-bold">Linhas de Pesquisa</h5>
+                </div>
+                <p class="card-text text-muted small">Mapeamento de vias apoptóticas e necroptóticas em patologias inflamatórias e oncológicas.</p>
+                <a href="bio.qmd" class="btn btn-sm btn-outline-primary w-100 mt-2">Explorar Linhas</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm bg-white">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-opacity-10 bg-success rounded-3 text-success me-3">
+                        <i class="bi bi-cpu-fill fs-3"></i>
+                    </div>
+                    <h5 class="card-title mb-0 fw-bold">Ferramentas & Dados</h5>
+                </div>
+                <p class="card-text text-muted small">Pipelines bioinformáticos abertos e scripts customizados para análise de transcriptômica de célula única.</p>
+                <a href="ferramentas.qmd" class="btn btn-sm btn-outline-success w-100 mt-2">Acessar Recursos</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm bg-white">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="p-3 bg-opacity-10 bg-warning rounded-3 text-dark me-3">
+                        <i class="bi bi-mortarboard-fill fs-3"></i>
+                    </div>
+                    <h5 class="card-title mb-0 fw-bold">Cursos & Treinamentos</h5>
+                </div>
+                <p class="card-text text-muted small">Workshops práticos de biologia molecular computacional e protocolos experimentais in vitro.</p>
+                <a href="cursos.qmd" class="btn btn-sm btn-outline-warning w-100 text-dark mt-2">Ver Cronograma</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CONTEÚDO EM DESTAQUE: ÚLTIMAS ATUALIZAÇÕES -->
+<div class="row g-4">
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm p-4 bg-white h-100">
+            <h3 class="fw-bold border-bottom pb-2 text-dark"><i class="bi bi-broadcast me-2"></i>Destaque Científico</h3>
+            <p class="mt-3">
+                O DeCiDe LAB foca no entendimento profundo de como falhas nos checkpoints de morte celular programada desencadeiam ou agravam quadros clínicos severos. Nosso objetivo final é decodificar esses sinais biológicos para propor alvos terapêuticos inovadores.
+            </p>
+            <div class="alert alert-info border-0 shadow-sm bg-light mt-auto mb-0" role="alert">
+                <h6 class="alert-heading fw-bold text-primary mb-1"><i class="bi bi-info-circle-fill me-2"></i>Processo Seletivo Aberto</h6>
+                <p class="mb-0 small text-secondary">Estamos selecionando candidatos para duas bolsas de pós-doutorado em Genômica Funcional. Veja mais detalhes no nosso Blog.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-4">
+        <div class="card border-0 shadow-sm p-4 bg-white h-100">
+            <h3 class="fw-bold border-bottom pb-2 text-dark"><i class="bi bi-bookmark-star me-2"></i>Fatos Rápidos</h3>
+            <ul class="list-group list-group-flush mt-2">
+                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent px-0 py-3">
+                    <div>
+                        <h6 class="mb-0 fw-bold text-secondary">Projetos Ativos</h6>
+                        <small class="text-muted">Financiados por agências</small>
+                    </div>
+                    <span class="badge bg-primary rounded-pill fs-6">04</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent px-0 py-3">
+                    <div>
+                        <h6 class="mb-0 fw-bold text-secondary">Artigos Publicados</h6>
+                        <small class="text-muted">Revistas Internacionais</small>
+                    </div>
+                    <span class="badge bg-success rounded-pill fs-6">27</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

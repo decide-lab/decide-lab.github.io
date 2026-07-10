@@ -1,0 +1,17 @@
+---
+title: "Blog & Notícias Científicas"
+subtitle: "Informativos, artigos de opinião e novidades do DeCiDe LAB"
+page-layout: full
+listing:
+  contents: "."
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, description, categories, reading-time]
+---
+
+Bem-vindo ao canal de divulgação do DeCiDe LAB. Aqui compartilhamos resumos de nossas últimas publicações, editais abertos para novos pesquisadores e insights sobre a biologia da morte celular.
+
+---

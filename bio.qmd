@@ -1,0 +1,71 @@
+---
+title: "Sobre o DeCiDe LAB"
+about:
+  template: trestles
+  image: img/logo.jpeg # Substitua pela sua foto de perfil ou do time quando desejar
+  links:
+    - icon: instagram
+      text: Instagram
+      href: https://twitter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/decide-lab
+    - icon: envelope
+      text: Contato
+      href: mailto:contato@decide-lab.io
+---
+
+O **DeCiDe LAB** (*Decoding Cell Death in Disease*) é um ambiente de pesquisa acadêmico focado na interseção entre a biologia celular fundamental e a medicina translacional. Nosso laboratório combina abordagens experimentais *in vitro* e análises computacionais avançadas para decifrar como as falhas nos mecanismos de sobrevivência e morte celular moldam o desenvolvimento de patologias humanas complexas.
+
+---
+
+### 🔬 Linhas de Pesquisa
+
+::: {.panel-tabset .nav-pills}
+
+## 1. Vias de Morte Regulada
+```{=html}
+<p class="mt-3">Investigamos a sinalização bioquímica que governa a transição entre a apoptose, a necroptose e a ferroptose em modelos celulares inflamados. Nosso objetivo é identificar novos biomarcadores teciduais.</p>
+<div class="border-start border-success border-3 ps-3 py-1 bg-light rounded-end mb-3">
+  <span class="small fw-bold text-success"><i class="bi bi-tag-fill me-1"></i> Palavras-chave:</span>
+  <span class="badge bg-secondary">Apoptose</span> <span class="badge bg-secondary">Sinalização Celular</span>
+</div>
+```
+
+## 2. Genômica Funcional & Câncer
+
+```{=html}
+<p class="mt-3">Utilizamos triagens genéticas em larga escala (CRISPR-Cas9) acopladas ao sequenciamento de RNA de célula única (single-cell RNA-seq) para mapear genes de resistência tumoral à quimioterapia convencional.</p>
+<div class="border-start border-primary border-3 ps-3 py-1 bg-light rounded-end mb-3">
+  <span class="small fw-bold text-primary"><i class="bi bi-tag-fill me-1"></i> Palavras-chave:</span>
+  <span class="badge bg-secondary">CRISPR</span> <span class="badge bg-secondary">scRNA-seq</span>
+</div>
+```
+
+:::
+
+## 🎓 Coordenação e Liderança Científica
+
+```{=html}
+<div class="card border-0 shadow-sm p-3 mb-4 bg-white">
+  <div class="d-flex align-items-start">
+    <div class="p-2 bg-light text-primary rounded-3 me-3">
+      <i class="bi bi-mortarboard-fill fs-2"></i>
+    </div>
+    <div>
+      <h5 class="fw-bold text-dark mb-1">Dr. Investigador Principal</h5>
+      <p class="text-muted small mb-2">Professor Adjunto e Pesquisador de Produtividade</p>
+      <p class="mb-0 text-secondary small">Doutorado em Biologia Celular e Estrutural, com pós-doutorado focado em Bioinformática Translacional. Dedica-se a decodificar mecanismos de morte celular desde 2018.</p>
+    </div>
+  </div>
+</div>
+```
+
+## 🏛️ Filiação Acadêmica & Financiamento
+
+Instituição Sede: Departamento de Biologia Molecular e Celular / Universidade Principal.
+
+Agências de Fomento Parceiras: Apoio financeiro e bolsas concedidas por conselhos nacionais e fundações estaduais de amparo à pesquisa.

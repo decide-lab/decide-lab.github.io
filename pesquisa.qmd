@@ -1,0 +1,73 @@
+---
+title: "Linhas de Pesquisa & Projetos"
+page-layout: full
+---
+
+O DeCiDe LAB foca no entendimento profundo dos caminhos moleculares que ativam ou inibem a morte celular programada (apoptose e necroptose). A nossa missão é descobrir alvos terapêuticos e biomarcadores aplicáveis a doenças humanas críticas.
+
+---
+
+### 🧬 Frentes de Investigação Patológica
+
+```{=html}
+<div class="row g-4 mb-5">
+    <!-- Bloco 1: Oncologia -->
+    <div class="col-md-6">
+        <div class="card h-100 border-start border-primary border-4 shadow-sm bg-white">
+            <div class="card-body">
+                <h5 class="fw-bold text-dark"><i class="bi bi-shield-virus me-2 text-primary"></i>Onconecrose e Resistência Tumoral</h5>
+                <p class="text-secondary small mb-0">
+                    Estudamos como células tumorais de carcinomas agressivos evitam a apoptose convencional. O laboratório busca caminhos para reativar vias alternativas de morte regulada (como a ferroptose) para contornar a resistência a quimioterápicos.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bloco 2: Doenças Inflamatórias -->
+    <div class="col-md-6">
+        <div class="card h-100 border-start border-success border-4 shadow-sm bg-white">
+            <div class="card-body">
+                <h5 class="fw-bold text-dark"><i class="bi bi-heart-pulse me-2 text-success"></i>Patologias Inflamatórias e Isquêmicas</h5>
+                <p class="text-secondary small mb-0">
+                    A morte celular descontrolada induz forte resposta inflamatória tecidual. Investigamos o papel da necroptose na falência de órgãos durante quadros de sepse e lesões de isquemia e reperfusão miocárdica.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+### 📑 Projetos Financiados Ativos
+
+```{=html}
+<div class="card border-0 shadow-sm bg-light p-4 mb-4">
+    <div class="d-flex align-items-center mb-3">
+        <span class="badge bg-success me-2 px-2 py-1">Projeto Temático</span>
+        <span class="text-muted small fw-mono">Processo nº 2024/00451-2</span>
+    </div>
+    <h5 class="fw-bold text-dark">Decodificação de Checkpoints de Morte Celular por Transcriptômica Espacial</h5>
+    <p class="text-secondary small">
+        Este projeto visa mapear a heterogeneidade da morte celular diretamente nos tecidos lesionados. Utilizando biópsias humanas e transcriptômica espacial, buscamos correlacionar a assinatura espacial de expressão gênica com o prognóstico clínico dos pacientes.
+    </p>
+    <div class="d-flex justify-content-between align-items-center border-top pt-3 mt-2">
+        <span class="small text-muted"><i class="bi bi-bank me-1"></i> Auxílio à Pesquisa Regular</span>
+        <span class="small text-dark fw-bold">Vigência: 2024 - 2028</span>
+    </div>
+</div>
+
+<div class="card border-0 shadow-sm bg-light p-4">
+    <div class="d-flex align-items-center mb-3">
+        <span class="badge bg-primary me-2 px-2 py-1">Cooperação Internacional</span>
+        <span class="text-muted small fw-mono">Consórcio Global de Biologia Celular</span>
+    </div>
+    <h5 class="fw-bold text-dark">Redes Genéticas de Regulação da Ferroptose em Modelos Experimentais</h5>
+    <p class="text-secondary small">
+        Consórcio internacional focado na triagem em larga escala via CRISPR-Cas9 para identificar modificadores epigenéticos que regulam a sensibilidade celular à oxidação lipídica e morte subsequente.
+    </p>
+    <div class="d-flex justify-content-between align-items-center border-top pt-3 mt-2">
+        <span class="small text-muted"><i class="bi bi-globe me-1"></i> Financiamento Multicêntrico</span>
+        <span class="small text-dark fw-bold">Vigência: 2025 - 2027</span>
+    </div>
+</div>
+```
+

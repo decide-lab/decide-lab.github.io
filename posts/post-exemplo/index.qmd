@@ -1,0 +1,17 @@
+---
+title: "Mapeando a Necroptose em Alta Resolução"
+description: "Como as novas abordagens de transcriptômica de célula única estão desvendando os gatilhos da inflamação celular tecidual."
+author: "DeCiDe LAB"
+date: "2026-07-09"
+categories: [Pesquisa, Transcriptômica, Inflamação]
+---
+
+A morte celular programada já não é vista como um evento binário de "tudo ou nada". Descobertas recentes do nosso laboratório demonstram que populações celulares adjacentes podem responder a estímulos inflamatórios adotando rotas bioquímicas completamente distintas.
+
+### O Poder do Single-Cell RNA-Seq
+
+Ao isolarmos e sequenciarmos o RNA de células individuais em modelos teciduais de sepse, conseguimos identificar assinaturas moleculares específicas que precedem o colapso da membrana celular característico da necroptose.
+
+> **Achado Chave:** A ativação da proteína *MLKL* (efetora da necroptose) ocorre de forma heterogênea, sugerindo a existência de checkpoints celulares locais até então desconhecidos.
+
+Esses dados abrem caminhos para terapias direcionadas capazes de frear a morte de tecidos vitais sem desarmar completamente a resposta imune necessária para combater infecções. Fiquem atentos às próximas publicações do grupo para o mapeamento completo destas vias.
